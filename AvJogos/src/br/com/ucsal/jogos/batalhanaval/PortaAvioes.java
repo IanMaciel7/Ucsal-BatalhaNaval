@@ -5,9 +5,8 @@ import java.util.Scanner;
 public class PortaAvioes extends Embarcacao {
 
 	public PortaAvioes(Jogador jogador) {
-		super(jogador,"porta aviões", 5, 2);
+		super(jogador, "porta aviões", 5, 2);
 	}
-
 
 	@Override
 	public String getNome() {
@@ -26,8 +25,5 @@ public class PortaAvioes extends Embarcacao {
 		// TODO Auto-generated method stub
 		return super.escolherPosicaoDaEmbarcacao(scanner);
 	}
-
-
-	
 
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Submarino extends Embarcacao {
 
 	public Submarino(Jogador jogador) {
-		super(jogador,"submarino",2, 1);
+		super(jogador, "submarino", 2, 1);
 	}
 
 	@Override
@@ -25,14 +25,5 @@ public class Submarino extends Embarcacao {
 		// TODO Auto-generated method stub
 		return super.escolherPosicaoDaEmbarcacao(scanner);
 	}
-
-	
-
-	
-	
-	
-	
-	
-	
 
 }

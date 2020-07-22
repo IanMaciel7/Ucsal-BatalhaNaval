@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class NavioTanque extends Embarcacao {
 
 	public NavioTanque(Jogador jogador) {
-		super(jogador,"navio tanque", 4, 3);
-		
+		super(jogador, "navio tanque", 4, 3);
+
 	}
-	
+
 	@Override
 	public String getNome() {
 		// TODO Auto-generated method stub
@@ -26,6 +26,5 @@ public class NavioTanque extends Embarcacao {
 		// TODO Auto-generated method stub
 		return super.escolherPosicaoDaEmbarcacao(scanner);
 	}
-
 
 }
